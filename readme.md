@@ -31,7 +31,6 @@ Commands:
   delete-temp <temp-name> [destination]  delete template
   ut <temp-name> [destination]           use template
 ```
-```
 ### mk
 
 - Run `ff mk demo `
@@ -62,7 +61,5 @@ Commands:
 ### ut
 - Run `ff ut demo `
 - Use the template named `demo` in the current directory
-
-```
 ## LICENSE
 MIT

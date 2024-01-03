@@ -196,7 +196,7 @@ program
       interval: 80,
       frames: ["✂︎"],
     };
-    fs.copy(targetPath, destPath, { overwrite: false }, (err) => {
+    fs.copy(targetPath, destPath, (err) => {
       if (err) return spinner.fail(`复制${name}模板失败`);
       return spinner.succeed(`复制${name}模板成功`);
     });
